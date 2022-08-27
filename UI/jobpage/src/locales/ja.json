@@ -1,0 +1,18 @@
+{
+    "Title": "社員業務時間管理",
+    "Job": "業務一覧",
+    "Master": " 社員マスター",
+    "Name" : "名称",
+    "Employee":"社員",
+    "Department": "部署",
+    "Position": "役職",
+    "Content": "業務内容",
+    "Status": "状況",
+    "DueDate": "納期",
+    "DefaultStatus": "新規",
+    "New":"新規",
+    "Edit":"編集",
+    "Create":"作成",
+    "Update":"更新",
+    "ConfirmDelete":"データを削除するか？"
+}

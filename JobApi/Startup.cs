@@ -42,7 +42,7 @@ namespace JobApi
                 options.AddDefaultPolicy(
                     builder =>
                     {
-                        builder.WithOrigins("https://localhost:44375", "http://localhost:8081")
+                        builder.WithOrigins("https://localhost:44306", "http://localhost:8082")
                                             .AllowAnyHeader()
                                             .AllowAnyMethod();
                     });

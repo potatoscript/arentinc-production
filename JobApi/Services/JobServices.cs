@@ -30,8 +30,17 @@ namespace JobApi.Services
             _context.SaveChanges();
         }
 
-        // Read all the jobs data from the database table
+        //Read all the jobs data from the database table
         public List<Job> ReadAllJobs() => _context.Jobs.ToList();
+        /*
+        List<Job> ReadAllJobs()
+        {
+            var _data = _context.Jobs
+                .GroupBy(p => p.EmployeeName)
+                .ToList();
+            return _data;
+        }
+        */
 
         // Read job data by content
         /*
